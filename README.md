@@ -6,7 +6,7 @@
 
 ### Deployed on:
 
-[project url here]
+[project url here] Heroku
 
 ---
 
@@ -85,6 +85,8 @@ Details of Post
 ---
 
 #### Data Model
+
+[UML](assets/caps.png)
 
 #### Overall Project Schema
 [Add a description of your DB schema. Explain the relationships to me.] Database Schema
