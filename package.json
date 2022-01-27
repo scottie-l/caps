@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/scottie-l/caps/issues"
   },
-  "homepage": "https://github.com/scottie-l/caps#readme"
+  "homepage": "https://github.com/scottie-l/caps#readme",
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
 }
