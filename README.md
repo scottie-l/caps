@@ -2,11 +2,13 @@
 
 ## Project: caps
 
+v 1.0.0
+
 ---
 
 ### Deployed on:
 
-[project url here] Heroku
+Local machine
 
 ---
 
@@ -65,22 +67,16 @@ npm start
 
 #### Usage:
 
-Overview of Recent Posts
-Overview of Recent Posts
-
-Creating a Post
-Post Creation
-
-Enriching a Post
-Enriching Post
-
-Viewing Post Details
-Details of Post
+ CAPS will simulate a delivery service where vendors (such a flower shops) will ship products using our delivery service and when our drivers deliver them, be notified that their customers received what they purchased.
 
 ---
 
 #### Data Flow (Frontend, Backend, REST API)
-[Add a clean and clear explanation of what the data flow is. Walk me through it.] Data Flow Diagram
+
+1. The vendor will notify driver of package to be picked up through event pool.
+2. The driver will pick up, which will notify vendor of pick up and package in transit.
+3. Driver delivers package which notifies vendor of delivery.
+4. Vendor can notify customer of delivery.
 
 ---
 
@@ -89,7 +85,9 @@ Details of Post
 [UML](assets/caps.png)
 
 #### Overall Project Schema
-[Add a description of your DB schema. Explain the relationships to me.] Database Schema
+
+Events are used to alert vendors, drivers and customers of orders through the use of event pools and loggers. The driver and the vendor each talk to the hub which distrubutes the information to the neccessary party(s).
 
 ---
+
 Author: Scott Lease
